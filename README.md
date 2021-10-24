@@ -75,8 +75,6 @@ docker run \
 --name rentadrone-app \
 --rm \
 -p 8181:8181 \
--p 3081:3081 \
--p 52081:52081 \
 -e SPRING_DATASOURCE_URL=jdbc:postgresql://host.docker.internal:25432/rentadrone-db \
 -e SPRING_DATASOURCE_USERNAME=postgres \
 -e SPRING_DATASOURCE_PASSWORD=postgres \
