@@ -37,8 +37,6 @@ services:
       - NAMESPACE=default
     ports:
       - '8181:8181'
-      - '3081:3081'
-      - '52081:52081'
 
 #  app-dapr:
 #    image: "daprio/daprd:latest"
