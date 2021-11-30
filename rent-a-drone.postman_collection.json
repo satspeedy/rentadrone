@@ -230,7 +230,7 @@
 									"var moment = require(\"moment\")\r",
 									"// see here for variables like '$isoTimestamp': https://learning.postman.com/docs/writing-scripts/script-references/variables-list/\r",
 									"// current time with moment.js https://stackoverflow.com/questions/49637741/how-to-add-more-time-into-current-timestamp-of-postman\r",
-									"pm.collectionVariables.set('rentadrone-pickup-local-datetime', moment().add(2, 'hours').add(90, 'seconds').toISOString())\r",
+									"pm.collectionVariables.set('rentadrone-pickup-local-datetime', moment().add(1, 'hours').add(90, 'seconds').toISOString())\r",
 									"// random drone id\r",
 									"pm.collectionVariables.set(\"rentadrone-random-drone-id\", _.random(1, 50))"
 								],
@@ -374,7 +374,7 @@
 									"var moment = require(\"moment\")\r",
 									"// see here for variables like '$isoTimestamp': https://learning.postman.com/docs/writing-scripts/script-references/variables-list/\r",
 									"// current time with moment.js https://stackoverflow.com/questions/49637741/how-to-add-more-time-into-current-timestamp-of-postman\r",
-									"pm.collectionVariables.set('rentadrone-pickup-local-datetime', moment().add(2, 'minutes').add(2, 'hours').toISOString())"
+									"pm.collectionVariables.set('rentadrone-pickup-local-datetime', moment().add(2, 'minutes').add(1, 'hours').toISOString())"
 								],
 								"type": "text/javascript"
 							}
